@@ -401,7 +401,7 @@ const exp = (function() {
 
         const flowMeasureLong_play = {
             type: jsPsychSurveyLikert,
-            preamble: `<p>Continue reporting how immersed and absorbed you felt spinning the last wheel by answering the following question as honestly as possible.</p>`,
+            preamble: `<p>Continue reporting how immersed and absorbed you felt spinning the last wheel by answering the following questions as honestly as possible.</p>`,
             questions: [
                 {prompt: `While spinning the last wheel, how <strong>immersed</strong> did you feel in what you were doing?`,
                 name: `immersed`,
