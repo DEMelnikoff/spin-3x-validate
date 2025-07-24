@@ -515,7 +515,7 @@ const exp = (function() {
 
         const finalWord = {
             type: jsPsychSurveyText,
-            questions: [{prompt: "Questions? Comments? Complains? Provide your feedback here!", rows: 10, columns: 100, name: "finalWord"}],
+            questions: [{prompt: "Questions? Comments? Complaints? Provide your feedback here!", rows: 10, columns: 100, name: "finalWord"}],
             on_finish: (data) => {
                 saveSurveyData(data); 
             },
