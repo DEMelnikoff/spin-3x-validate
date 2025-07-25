@@ -347,7 +347,7 @@ const exp = (function() {
                 createSpinner(c, spinnerData, wheel.sectors, false, false);
             },
             questions: [
-                {prompt: `How <b>immersed</b> and <b>absorbed</b><br>would an average person feel spinning this wheel?`,
+                {prompt: `While spinning this wheel,<br>how <b>immersed</b> and <b>absorbed</b> would an average person feel in what they are doing?`,
                 name: `flow`,
                 labels: ['0<br>A little', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10<br>Extremely']},
             ],
@@ -386,7 +386,7 @@ const exp = (function() {
             type: jsPsychSurveyLikert,
             preamble: `<p>Please answer the following question as honestly as possible:</p>`,
             questions: [
-                {prompt: `While spinning the previous wheel, how <b>immersed</b> and <b>absorbed</b><br>did you feel in what you were doing?`,
+                {prompt: `While spinning the previous wheel,<br>how <b>immersed</b> and <b>absorbed</b>< did you feel in what you were doing?`,
                 name: `flow`,
                 labels: ['0<br>A little', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10<br>Extremely']},
             ],
