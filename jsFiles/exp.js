@@ -347,7 +347,7 @@ const exp = (function() {
                 createSpinner(c, spinnerData, wheel.sectors, false, false);
             },
             questions: [
-                {prompt: `While spinning this wheel,<br>how <b>immersed</b> and <b>absorbed</b> would an average person feel in what they are doing?`,
+                {prompt: `While spinning this wheel,<br>how <b>immersed</b> and <b>absorbed</b> would an average person feel in what they were doing?`,
                 name: `flow`,
                 labels: ['0<br>A little', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10<br>Extremely']},
             ],
