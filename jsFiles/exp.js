@@ -384,9 +384,9 @@ const exp = (function() {
 
         const flowMeasureShort_play = {
             type: jsPsychSurveyLikert,
-            preamble: `<p>To report how immersed and absorbed you felt spinning the previous wheel,<br>please answer the following question as honestly as possible.</p>`,
+            preamble: `<p>Please answer the following question as honestly as possible:</p>`,
             questions: [
-                {prompt: `How <b>immersed</b> and <b>absorbed</b><br>did you feel spinning the last wheel?`,
+                {prompt: `While spinning the previous wheel, how <b>immersed</b> and <b>absorbed</b><br>did you feel in what you were doing?`,
                 name: `flow`,
                 labels: ['0<br>A little', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10<br>Extremely']},
             ],
@@ -401,18 +401,18 @@ const exp = (function() {
 
         const flowMeasureLong_play = {
             type: jsPsychSurveyLikert,
-            preamble: `<p>Continue reporting how immersed and absorbed you felt spinning the last wheel by answering the following questions as honestly as possible.</p>`,
+            preamble: `<p>Continue reporting how immersed and absorbed you felt by answering the following questions as honestly as possible:</p>`,
             questions: [
-                {prompt: `While spinning the last wheel, how <strong>immersed</strong> did you feel in what you were doing?`,
+                {prompt: `While spinning the previous wheel, how <strong>immersed</strong> did you feel in what you were doing?`,
                 name: `immersed`,
                 labels: ['0<br>A little', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10<br>Extremely']},
-                {prompt: `While spinning the last wheel, how <strong>engaged</strong> did you feel in what you were doing?`,
+                {prompt: `While spinning the previous wheel, how <strong>engaged</strong> did you feel in what you were doing?`,
                 name: `engaged`,
                 labels: ['0<br>A little', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10<br>Extremely']},
-                {prompt: `While spinning the last wheel, how <strong>engrossed</strong> did you feel in what you were doing?`,
+                {prompt: `While spinning the previous wheel, how <strong>engrossed</strong> did you feel in what you were doing?`,
                 name: `engrossed`,
                 labels: ['0<br>A little', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10<br>Extremely']},
-                {prompt: `While spinning the last wheel, how <strong>absorbed</strong> did you feel in what you were doing?`,
+                {prompt: `While spinning the previous wheel, how <strong>absorbed</strong> did you feel in what you were doing?`,
                 name: `absorbed`,
                 labels: ['0<br>A little', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10<br>Extremely']},
             ],
